@@ -1,5 +1,5 @@
-ARG BASE_IMAGE=nvidia/opengl:1.2-glvnd-devel-ubuntu20.04
-From ubuntu:20.04
+ARG BASE_IMAGE=nvidia/opengl:1.2-glvnd-devel-ubuntu22.04
+From $BASE_IMAGE
 
 LABEL maintainer "zhengpeng ge"
 MAINTAINER zhenpeng ge "https://github.com/gezp"
