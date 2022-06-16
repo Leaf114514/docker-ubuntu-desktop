@@ -1,8 +1,8 @@
 ARG BASE_IMAGE=nvidia/opengl:1.2-glvnd-devel-ubuntu18.04
 From $BASE_IMAGE
 
-LABEL maintainer "zhengpeng ge"
-MAINTAINER zhenpeng ge "https://github.com/gezp"
+LABEL maintainer "JNNB"
+MAINTAINER Leaf "https://github.com/Leaf114514"
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV USER=ubuntu \
