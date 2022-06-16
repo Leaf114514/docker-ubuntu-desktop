@@ -73,3 +73,4 @@ EXPOSE 22 4000
 COPY nxserver.sh /
 RUN chmod +x /nxserver.sh
 ENTRYPOINT ["/nxserver.sh"]
+65151561
